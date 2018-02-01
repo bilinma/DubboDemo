@@ -6,7 +6,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>Dubbo-Consume</module>
-    <module>Dubbo-Provider</module>
+    <module>dubbo-consume</module>
+    <module>dubbo-student</module>
+    <module>dubbo-course</module>
   </modules>
 </project>
