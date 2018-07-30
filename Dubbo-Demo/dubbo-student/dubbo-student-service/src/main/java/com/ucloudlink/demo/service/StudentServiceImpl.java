@@ -41,13 +41,18 @@ public class StudentServiceImpl implements IStudentService {
 	public void insertStudent(Student student) {
 		studentMapper.insert(student);
 	}
-
+	
+	/**
+	 *	
+	 */
 	@Override
 	@Transactional(readOnly=false,rollbackFor=Exception.class)
 	public void saveStudentInfo(Student student, List<Course> courseList) {
-		studentMapper.insert(student);
 		for(Course course :courseList){
 			courseService.insertCourse(course);
 		}
+		String a = null;
+		a.toString();
+		studentMapper.insert(student);
 	}
 }

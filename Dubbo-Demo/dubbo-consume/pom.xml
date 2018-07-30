@@ -29,6 +29,17 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.zookeeper</groupId>
+			<artifactId>zookeeper</artifactId>
+			<version>3.4.8</version>
+		</dependency>
+		<dependency>
+			<groupId>com.101tec</groupId>
+			<artifactId>zkclient</artifactId>
+			<version>0.3</version>
+		</dependency>
 		<!-- 日志文件管理包 -->
 		<dependency>
 			<groupId>log4j</groupId>
@@ -46,7 +57,7 @@
 			<version>1.7.21</version>
 			<scope>compile</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.ucloudlink</groupId>
 			<artifactId>dubbo-student-api</artifactId>
