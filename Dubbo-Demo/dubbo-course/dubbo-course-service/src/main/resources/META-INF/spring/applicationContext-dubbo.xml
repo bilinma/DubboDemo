@@ -17,6 +17,6 @@
 	<dubbo:consumer check="false" retries="0"  />
      
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="com.ucloudlink.course.service.ICourseService" ref="courseServiceImpl" />
+    <dubbo:service interface="com.bilin.course.service.ICourseService" ref="courseServiceImpl" />
 
 </beans>

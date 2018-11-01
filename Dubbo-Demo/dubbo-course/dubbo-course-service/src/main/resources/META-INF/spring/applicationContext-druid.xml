@@ -15,7 +15,7 @@
         http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
 
 	<context:property-placeholder location="classpath:META-INF/spring/*.properties" />
-	<context:component-scan base-package="com.ucloudlink.course" />
+	<context:component-scan base-package="com.bilin.course" />
 
 	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
 		init-method="init" destroy-method="close">
@@ -47,11 +47,11 @@
 	</bean>
 
 	<bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.ucloudlink.course.dao" />
-		<property name="markerInterface" value="com.ucloudlink.course.dao.BaseMapper" />
+		<property name="basePackage" value="com.bilin.course.dao" />
+		<property name="markerInterface" value="com.bilin.course.dao.BaseMapper" />
 		<property name="properties">
 			<value>
-				mappers=com.ucloudlink.course.dao.BaseMapper
+				mappers=com.bilin.course.dao.BaseMapper
 			</value>
 		</property>
 	</bean>

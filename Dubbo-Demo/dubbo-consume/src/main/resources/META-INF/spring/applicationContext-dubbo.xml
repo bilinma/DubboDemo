@@ -13,8 +13,8 @@
     <dubbo:registry address="zookeeper://127.0.0.1:2181" />
 
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
-    <dubbo:reference id="studentService" interface="com.ucloudlink.demo.service.IStudentService" />
+    <dubbo:reference id="studentService" interface="com.bilin.demo.service.IStudentService" />
     
-    <dubbo:reference id="courseService" interface="com.ucloudlink.course.service.ICourseService" />
+    <dubbo:reference id="courseService" interface="com.bilin.course.service.ICourseService" />
 
 </beans>
