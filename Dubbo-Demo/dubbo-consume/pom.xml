@@ -4,11 +4,11 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.ucloudlink</groupId>
+		<groupId>com.bilin</groupId>
 		<artifactId>Dubbo-Demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.ucloudlink</groupId>
+	<groupId>com.bilin</groupId>
 	<artifactId>Dubbo-Consume</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Dubbo-Consume</name>
@@ -59,12 +59,12 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.ucloudlink</groupId>
+			<groupId>com.bilin</groupId>
 			<artifactId>dubbo-student-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.ucloudlink</groupId>
+			<groupId>com.bilin</groupId>
 			<artifactId>dubbo-course-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
