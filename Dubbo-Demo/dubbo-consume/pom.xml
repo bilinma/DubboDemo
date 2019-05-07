@@ -9,7 +9,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.bilin</groupId>
-	<artifactId>Dubbo-Consume</artifactId>
+	<artifactId>dubbo-consume</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Dubbo-Consume</name>
 	<url>http://maven.apache.org</url>
